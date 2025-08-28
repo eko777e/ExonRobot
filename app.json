@@ -1,77 +1,75 @@
-
 {
     "name": "ᴇxᴏɴᴏʙᴏᴛ",
     "description": "Telegram Group Management Bot Written In Python Using python-telegram-bot.",
     "repository": "https://github.com/AshokShau/ExonRobot",
     "logo": "https://te.legra.ph/file/b0e09aabe796209f01d3d.jpg",
     "keywords": [
-    "python3",
-    "telegram",
-    "bot",
-    "ExonRobot",
-    "telegram-bot",
-    "management",
-    "ptb",
-    "pyrogram"
+        "python3",
+        "telegram",
+        "bot",
+        "ExonRobot",
+        "telegram-bot",
+        "management",
+        "ptb",
+        "pyrogram"
     ],
-   "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-python"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    } 
-   ],
-   "stack": "heroku-22",
-   "addons": [
-      {
-         "options": {
-            "version": "14"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],   
-   "env": {
-      "API_ID": {
-         "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʟᴜᴇ ғʀᴏᴍ my.telegram.org/apps.",
-         "required": true,
-         "value": ""
-      },
-      "API_HASH": {
-         "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʟᴜᴇ ғʀᴏᴍ my.telegram.org/apps.",
-         "required": true,
-         "value": ""
-      },
-      "OWNER_ID": {
-         "description": "ʏᴏᴜʀ ᴜsᴇʀ ID ᴀs ᴀɴ ɪɴᴛᴇɢᴇʀ.",
-         "required": true,
-         "value": "5938660179"
-      },
-      "DEV_USERS": {
-         "description": "ᴅᴇᴠs ᴜsᴇʀ ID ᴀs ᴀɴ ɪɴᴛᴇɢᴇʀ.",
-         "required": true,
-         "value": "5938660179"
-      },
-      "OWNER_USERNAME": {
-         "description": "ʏᴏᴜʀ ᴛɢ ᴜsᴇʀɴᴀᴍᴇ",
-         "required": true,
-         "value": "AshokShau"
-      },
-      "LOGGER_ID": {
-         "description": "ᴇᴠᴇɴᴛ ʟᴏɢs ᴄʜᴀɴɴᴇʟ  ᴛᴏ ɴᴏᴛᴇ ᴅᴏᴡɴ ɪᴍᴘᴏʀᴛᴀɴᴛ ʙᴏᴛ ʟᴇᴠᴇʟ ᴇᴠᴇɴᴛs, ᴇx: '-10023456'",
-         "required": true,
-         "value": "-100"
-      },
-      "MONGO_DB_URI": {
-         "description": "ʀᴇǫᴜɪʀᴇᴅ ғᴏʀ ᴅᴀᴛᴀʙᴀsᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴs (ᴍᴏɴɢᴏ).",
-         "required": true,
-         "value": "mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority"
-      },
-      "TOKEN": {
-         "description": "Get bot token from @BotFather on TG",
-         "required": true,
-         "value": ""
-      }
-   }
+    "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        } 
+    ],
+    "stack": "heroku-22",
+    "addons": [
+        {
+            "options": {
+                "version": "15"
+            },
+            "plan": "heroku-postgresql"
+        }
+    ],
+    "env": {
+        "API_ID": {
+            "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʟᴜᴇ ғʀᴏᴍ my.telegram.org/apps.",
+            "required": true,
+            "value": "23470912"
+        },
+        "API_HASH": {
+            "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʟᴜᴇ ғʀᴏᴍ my.telegram.org/apps.",
+            "required": true,
+            "value": "33ac02b7891c5396e6b305802d56cf4f"
+        },
+        "OWNER_ID": {
+            "description": "ʏᴏᴜʀ ᴜsᴇʀ ID ᴀs ᴀɴ ɪɴᴛᴇɢᴇʀ.",
+            "required": true,
+            "value": "8493825254"
+        },
+        "DEV_USERS": {
+            "description": "ᴅᴇᴠs ᴜsᴇʀ ID ᴀs ᴀɴ ɪɴᴛᴇɢᴇʀ.",
+            "required": true,
+            "value": "8493825254"
+        },
+        "OWNER_USERNAME": {
+            "description": "ʏᴏᴜʀ ᴛɢ ᴜsᴇʀɴᴀᴍᴇ",
+            "required": true,
+            "value": "Heyatmsan"
+        },
+        "LOGGER_ID": {
+            "description": "ᴇᴠᴇɴᴛ ʟᴏɢs ᴄʜᴀɴɴᴇʟ  ᴛᴏ ɴᴏᴛᴇ ᴅᴏᴡɴ ɪᴍᴘᴏʀᴛᴀɴᴛ ʙᴏᴛ ʟᴇᴠᴇʟ ᴇᴠᴇɴᴛs, ᴇx: '-10023456'",
+            "required": true,
+            "value": "-1002954477031"
+        },
+        "MONGO_DB_URI": {
+            "description": "ʀᴇǫᴜɪʀᴇᴅ ғᴏʀ ᴅᴀᴛᴀʙᴀsᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴs (ᴍᴏɴɢᴏ).",
+            "required": true,
+            "value": "mongodb+srv://TEAMBABY01:UTTAMRATHORE09@cluster0.vmjl9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+        },
+        "TOKEN": {
+            "description": "Get bot token from @BotFather on TG",
+            "required": true,
+            "value": "8118046938:AAENUxrO54YYSvbRZF4CCYOUNGOZcDrReVY"
+        }
+    }
 }
-
