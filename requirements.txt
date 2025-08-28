@@ -32,10 +32,10 @@ prettyconf
 base58==2.1.1
 pytimeparse==1.1.8
 SibylSystem==0.0.24
-tgcrypto-pyrofork
+tgcrypto
 pyrofork
 python-arq==6.0.7
-python-dotenv==1.1.1
+python-dotenv==1.0.1
 redis==5.2.0
 telegraph==2.2.0
 motor
@@ -50,8 +50,7 @@ lyricsgenius==3.6.0
 jikanpy==4.3.2
 gtts==2.5.1
 search_engine_parser
-googletrans==2.4.0
+googletrans==4.0.0-rc1
 gpytranslate==1.5.1
 cloudscraper==1.2.70
-carbonnow
 pretty_errors
